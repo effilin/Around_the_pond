@@ -34,6 +34,9 @@ a {
   color: inherit;
   text-decoration: none;
 }
+.sky{
+  height: 50rem;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
