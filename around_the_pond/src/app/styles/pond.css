@@ -1,7 +1,7 @@
 .pondBox {
-    background-image: url('../../../public/colorPond.png');
+    background-image: url('../../../public/pond.png');
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100%;
+    height: 95%;
 
 }

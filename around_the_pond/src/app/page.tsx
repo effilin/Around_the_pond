@@ -5,15 +5,18 @@ import Pond from "./_components/Pond";
 
 export default function Home() {
   return (
-    <div>
-      <div className="skyBox">
-        <Sky>
-          <Pond />
-        </Sky>
-      
+    
+    <div className="skyBox container">
+      <div className="row">
+        <div className="col">
+          <Sky>
+            <Pond />
+          </Sky>
+        </div>
+        <div className="col">
 
+        </div>
       </div>
-   
     </div>
   );
 }
