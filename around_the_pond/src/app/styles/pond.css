@@ -3,5 +3,16 @@
     background-repeat: no-repeat;
     background-size: contain;
     height: 95%;
+    position: relative;
+    z-index: 1;
 
+}
+.fern1 {
+    position: absolute;
+    background-image: url('../../../public/Fern.png');
+    z-index: 2;
+}
+.col {
+    
+    border: 2px solid black;
 }

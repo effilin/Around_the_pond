@@ -53,7 +53,7 @@ export default function Sky({children}:SkyProps) {
          lightnessNow = hours * 6;
          console.log (` less than 6 `)
          } else if(hours > 6 && hours < 14) {
-         lightnessNow= hours * 7;
+         lightnessNow= hours * 7 ;
          console.log (` greater than 6 and less than 14 `)
          }else{
          lightnessNow= (88 - (hours * 2 ));
