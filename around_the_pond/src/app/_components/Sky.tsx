@@ -56,12 +56,12 @@ export default function Sky({children}:SkyProps) {
          lightnessNow= hours * 7;
          console.log (` greater than 6 and less than 14 `)
          }else{
-         lightnessNow= (98 - (hours * 2 ));
+         lightnessNow= (88 - (hours * 2 ));
          console.log (` greater than 14 `)
          }
       
       const newColor: BackgroundColor = {
-         hue: 197,
+         hue: 201,
          saturation:61,
          lightness: lightnessNow
       }
