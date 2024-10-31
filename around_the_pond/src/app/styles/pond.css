@@ -4,15 +4,19 @@
     background-size: contain;
     height: 95%;
     position: relative;
-    z-index: 1;
+    z-index: auto;
 
 }
 .fern1 {
     position: absolute;
     background-image: url('../../../public/Fern.png');
     z-index: 2;
+    height: 27vw;
+    width: 17vw;
+    bottom: 8.5vw;
+    left: -1.2vw;
+    opacity: .5;
 }
 .col {
-    
     border: 2px solid black;
 }

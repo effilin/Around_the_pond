@@ -1,4 +1,6 @@
 import '../styles/pond.css';
+import FernOne from './animatedPlants/FernOne';
+
 
 export default function Pond () {
 
@@ -16,8 +18,8 @@ export default function Pond () {
                 </div>
             </div>
             <div className="row">
-                <div className="col fern1">
-                  
+                <div className="col">
+                  <FernOne/>
                 </div>
                 <div className="col">
                   5
