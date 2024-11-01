@@ -2,6 +2,7 @@
     background-image: url('../../../public/pond.png');
     background-repeat: no-repeat;
     background-size: contain;
+    box-sizing: border-box ;
     height: 95%;
     position: relative;
     z-index: auto;
@@ -10,13 +11,25 @@
 .fern1 {
     position: absolute;
     background-image: url('../../../public/Fern.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
     z-index: 2;
-    height: 27vw;
-    width: 17vw;
+    height: 50%;
+    width: 50%;
     bottom: 8.5vw;
     left: -1.2vw;
     opacity: .5;
 }
 .col {
     border: 2px solid black;
+    box-sizing: border-box;
 }
+
+@media screen and(max-width:576) {
+    
+
+    }
+
+
+    
