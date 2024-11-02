@@ -13,8 +13,7 @@
 html,
 body {
   max-width: 100vw;
-  overflow-x: hidden;
-  margin: 0;
+ 
 }
 
 body {
@@ -29,6 +28,12 @@ body {
   box-sizing: border-box;
   padding: 0;
 }
+h1 {
+  font-family: "Bona Nova SC", serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-right: 0;
+}
 
 a {
   color: inherit;
@@ -36,26 +41,27 @@ a {
 }
 .sky{
   z-index: 0;
+  padding: 1%;
+}
+#menu {
+  height: 3vw;
 }
 
 #navbar {
- height: 6vw;
- border: 4px groove #3d7765;
+ border: 4px ridge #3d7765;
  padding: 1%;
+ background-color: hsla(116 15% 50% / 0.54);
+ border-radius: 10vw;
+ height: 5vw;
+ display: block;
 }
 
 #logo {
-  height: 40%;
-  border: 4px groove #3d7765;
-  border-radius: 45%;
+  height: 5vw;
+  margin-top: -1vw;
+  margin-left: 0;
 }
 
-.border-div {
-  border: 4px groove #3d7765;
-  border-radius: 5px;
-  
-
-}
 
 
 @media (prefers-color-scheme: dark) {
