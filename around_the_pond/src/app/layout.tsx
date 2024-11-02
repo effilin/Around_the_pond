@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "../app/styles/globals.css";
 import NavBar from "./_components/NavBar";
+import Sky from "./_components/Sky";
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { SkyProvider } from "./provider";
+
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -27,8 +32,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <NavBar/>
-        {children}
+        <SkyProvider>
+        
+          <Sky>
+              <div>
+                <NavBar/>
+              </div>
+              <div>
+                {children}
+              </div>
+          </Sky>
+        
+        </SkyProvider>
       </body>
     </html>
   );

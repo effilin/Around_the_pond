@@ -2,7 +2,7 @@
 
 import '../../app/styles/globals.css';
 import React, { useState, useEffect } from "react";
-import Pond from './Pond';
+
 
 interface SkyProps {
    children: React.ReactNode;
@@ -44,7 +44,7 @@ export default function Sky({children}:SkyProps) {
 
    useEffect (() => {
 
-   function chooseBackground(){
+   async function chooseBackground(){
       let hours = time || 12;
       console.log(hours)
       let lightnessNow:number;
@@ -92,8 +92,7 @@ console.log()
    return(
     
       <div className="sky" style={{backgroundColor:  `hsl(${backColor.hue}, ${backColor.saturation}%, ${backColor.lightness}%)`}}>
-         <h1>the Sky</h1>
-         <Pond />
+        {children}
       </div>
    
    )

@@ -1,9 +1,14 @@
+* {
+    box-sizing: border-box;
+   
+  }
+
 .pondBox {
     background-image: url('../../../public/pond.png');
     background-repeat: no-repeat;
     background-size: contain;
     box-sizing: border-box ;
-    height: 95%;
+    
     position: relative;
     z-index: auto;
 
@@ -17,8 +22,6 @@
     z-index: 2;
     height: 50%;
     width: 50%;
-    bottom: 8.5vw;
-    left: -1.2vw;
     opacity: .5;
 }
 .col {
