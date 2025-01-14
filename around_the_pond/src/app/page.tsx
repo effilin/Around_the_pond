@@ -1,4 +1,4 @@
-import Pond from "./_components/Pond";
+import Pond from "./components/Pond";
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
         <div className="col">
             <Pond />
         </div>
-        <div className="col">
+        <div className="col bg-midnight">
 
         </div>
       </div>

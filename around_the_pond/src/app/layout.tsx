@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "../app/styles/globals.css";
-import NavBar from "./_components/NavBar";
-import Sky from "./_components/Sky";
+import NavBar from "./components/NavBar";
+import Sky from "./components/Sky";
 import { SkyProvider } from "./provider";
 
 
