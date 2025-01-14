@@ -48,12 +48,13 @@ a {
 }
 
 #navbar {
- border: 4px ridge #3d7765;
+ outline: 4px solid hsla(114, 15%, 50%, 0.281) ;
  padding: 1%;
- background-color: hsla(116 15% 50% / 0.54);
+ background-color: hsla(114, 15%, 50%, 0.699);
  border-radius: 10vw;
  height: 5vw;
  display: block;
+ margin: .2% 0 1% 0;
 }
 
 #logo {

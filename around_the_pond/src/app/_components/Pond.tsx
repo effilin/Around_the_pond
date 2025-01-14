@@ -5,7 +5,7 @@ import FernOne from './animatedPlants/FernOne';
 export default function Pond () {
 
     return (
-        <div className="pondBox container" >
+        <div className="pondBox container-fluid" >
             <div className="row">
                 <div className="col col-4">
                   1
